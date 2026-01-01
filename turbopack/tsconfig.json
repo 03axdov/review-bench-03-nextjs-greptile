@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "importHelpers": false,
+    "noEmitHelpers": false,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "paths": {
+      "@vercel/webpack-nft": ["./packages/webpack-nmt/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "target"]
+}
